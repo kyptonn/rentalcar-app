@@ -23,13 +23,13 @@ function App() {
   return (
     <Router>
       <Switch>
-      <Route exact path="../" component={Home}/>
-      <Route exact path="../404" component={NotFoundPage} />
-      <Route exact path="../coches" component={ListaCoches} />
-      <Route exact path="../coche" component={CocheFiltros} />
-      <Route exact path="../reserva" component={Reserva} />
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/404" component={NotFoundPage} />
+      <Route exact path="/coches" component={ListaCoches} />
+      <Route exact path="/coche" component={CocheFiltros} />
+      <Route exact path="/reserva" component={Reserva} />
 
-      <Redirect to="/" />
+      <Redirect to="/404" />
       </Switch>
     </Router>
 
