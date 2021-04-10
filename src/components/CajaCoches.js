@@ -13,7 +13,7 @@ export default class CajaCoches extends React.Component {
     // } -> si lo usamos así, hay que cambiar abajo de "this.props" a "this.state"
     render(){
         return (
-            <div className="caja-pequenia">
+            <div className="caja-pequenia animate__animated animate__fadeIn animate__slow">
                 <div className="caja-izquierda">
                     <h2>{this.props.marca}</h2>
                     <h3>{this.props.modelo}</h3>

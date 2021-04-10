@@ -23,11 +23,11 @@ function App() {
   return (
     <Router>
       <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/404" component={NotFoundPage} />
-      <Route exact path="/coches" component={ListaCoches} />
-      <Route exact path="/coche" component={CocheFiltros} />
-      <Route exact path="/reserva" component={Reserva} />
+      <Route exact path="/rentalcar-app/" component={Home}/>
+      <Route exact path="/rentalcar-app/404" component={NotFoundPage} />
+      <Route exact path="/rentalcar-app/coches" component={ListaCoches} />
+      <Route exact path="/rentalcar-app/coche" component={CocheFiltros} />
+      <Route exact path="/rentalcar-app/reserva" component={Reserva} />
 
       <Redirect to="/404" />
       </Switch>

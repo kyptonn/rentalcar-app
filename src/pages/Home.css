@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -27,6 +28,8 @@
   font-size: calc(15px + 2vmin);
   color: white;
   
+  z-index:2;
+  
 }
 
 .overlay{
@@ -34,6 +37,7 @@
   height: 100%;
   padding:400px 0 300px 0;
   background-color: rgba(0, 0, 0, 0.461);
+  
 }
 .App-header h1{
   margin:0 0 10px 0;
@@ -76,5 +80,15 @@
 @media screen and (max-width:750px) {
   body, html{
       overflow-x:hidden;
-  }}
+  }
+
+  .App {
+    text-align: center;
+  }
+
+
+
+
+
+}
 

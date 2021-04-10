@@ -4,39 +4,85 @@
         "marca":"Ferrari",
         "modelo":"488 GTB",
         "clasificacion":"Luxury & Sports Car",
-        "imagen":"https://i.postimg.cc/JnYRhhXY/ferrari-488-gtb-side-view.png",
+        "imagen":"https://i.postimg.cc/8PMHmtGp/ferrari3.png",
         "caballos":"150cv",
         "aceleracion":"0-100 - 2.6s",
-        "precio":150
+        "precio":180
         },
     {
         "marca":"Ferrari",
         "modelo":"812 Super",
-         "clasificacion":"Luxury & Sports Car",
-        "imagen":"https://i.postimg.cc/hjtSgmX7/ferrari-488-gtb-side-view-copia.png",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/m2sMBRx4/Ferrari1.png",
         "caballos":"150cv",
         "aceleracion":"0-100 - 2.6s",
-        "precio":150
+        "precio":200
        
                 },
     {
         "marca":"Lamborghini",
-        "modelo":"Huracán",
-         "clasificacion":"Luxury & Sports Car",
+        "modelo":"Aventador",
+        "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/TYGkSVhR/lamborghinireserva.png",
         "caballos":"150cv",
         "aceleracion":"0-100 - 2.6s",
-        "precio":150
+        "precio":300
         },
     {
         "marca":"Lamborghini",
-        "modelo":"Huracán Spyder",
-         "clasificacion":"Luxury & Sports Car",
-        "imagen":"https://i.postimg.cc/90vVGNJG/huracan-evo-spyder-copia.png",
+        "modelo":"Reventon",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/pr8DkXgG/lamborghini1-aventador-lamborghini-gallardo-car-lamborghini-aventador-lp-white-car-5a752727a2b522-53.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":350
+        },
+    {
+        "marca":"Lamborghini",
+        "modelo":"Huracán",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/15GGqX04/lambo3.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":375
+    },
+    {
+        "marca":"Mclaren",
+        "modelo":"675LT",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/bJ4xQ2FS/mclaren1copia.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":300
+    },
+    {
+        "marca":"Mercedes",
+        "modelo":"SLS",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/jjd4KT72/mercedes1.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":165
+    },
+    {
+        "marca":"Maserati",
+        "modelo":"Gran Turismo",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/43Lbx065/masserati1.png",
         "caballos":"150cv",
         "aceleracion":"0-100 - 2.6s",
         "precio":150
-        }
+    },
+    {
+        "marca":"Mercedes",
+        "modelo":"Clase G",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":150
+    }
+    
         
    
    
