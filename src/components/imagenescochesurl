@@ -1,0 +1,56 @@
+https://ibb.co/VCpQFJ9
+https://ibb.co/zmrRXx9
+https://ibb.co/cYkrjZK
+https://ibb.co/1JfMTRq
+
+
+[
+   {
+    "0":{
+        "nombre":"Ferrari 488 GTB",
+        "imagen":"src/coches/ferrari-488-gtb-side-view.png",
+        "aceleracion":"0-100 - 2.6s"
+        },
+    "1":{
+        "nombre":"Ferrari 812 Super",
+        "imagen":"src/coches/ferrari-488-gtb-side-view.png",
+        "aceleracion":"0-100 - 2.6s"
+                },
+    "2":{
+        "nombre":"Lamborghini Huracán Evo",
+        "imagen":"src/coches/ferrari-488-gtb-side-view.png",
+        "aceleracion":"0-100 - 2.6s"
+        }
+
+   
+   }
+]
+
+
+   //    <div className="caja-pequenia">
+        //             {coches.map((postCoche)=>{
+        //                 return <h2>{postCoche[1].nombre}</h2>
+        //             })}
+        //             <div className="imagen-coche-pequenia">
+        //                 <img src={ferrari1}></img>
+        //             </div>
+        //             {coches.map((postCoche)=>{
+        //                 return <p>{postCoche[1].aceleracion}</p>
+        //             })}
+                
+
+        //     </div>
+
+
+
+
+
+
+----------------------- NUEVAS IMAGENES COCHES BUENAS --------------------
+[url=https://postimg.cc/FdSMWND0][img]https://i.postimg.cc/FdSMWND0/ferrari-488-gtb-side-view.png[/img][/url]
+
+[url=https://postimg.cc/XZtMkpcV][img]https://i.postimg.cc/XZtMkpcV/ferrari-488-gtb-side-view-copia.png[/img][/url]
+
+[url=https://postimg.cc/bSjK4WBW][img]https://i.postimg.cc/bSjK4WBW/huracan-evo-copia.png[/img][/url]
+
+[url=https://postimg.cc/V0B3w4y6][img]https://i.postimg.cc/V0B3w4y6/huracan-evo-spyder-copia.png[/img][/url]

@@ -1,0 +1,96 @@
+
+.navigationItems{
+    
+    position:absolute;
+    justify-content: space-around;
+}
+
+nav{
+    line-height: 20px;
+    margin-top:20px;
+    min-height: 20px;
+    color:black;
+    display:flex;
+ 
+    justify-content: space-between;
+    
+     
+    position:absolute;
+    width:100%;
+}
+
+.logo{
+    
+    margin-left:1.9rem;
+    width:12%;
+}
+
+.navlinks{
+    
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    width:50%;
+   
+}
+
+.link a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin:5px;
+}
+
+.hamburger-toggle{
+    cursor: pointer;
+    color:black;
+    margin-top: 15px;
+    margin-right:50px;
+    display:none;
+    z-index:10;
+}
+
+
+
+@media screen and (max-width:750px) {
+    body, html{
+        overflow-x:hidden;
+    }
+
+    .hamburger-toggle{
+        display:block;
+    }
+    .logo img{
+        margin-top:0.5vh;
+        width: 40px;
+        
+    }
+
+    .navlinks{
+        position:absolute;
+        right:0px;
+        display:flex;
+        flex-direction:column;
+        height:50vh;
+        vertical-align: middle;
+        align-items:center;
+        width:100%;
+        padding:30vh 0 30vh 0;
+        
+        top:-7vh;
+        bottom:0vh;
+        background-color: black;
+        font-size:30px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    
+
+
+    .active {
+        transform: translateX(0%);
+       
+    }
+    
+}

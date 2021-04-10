@@ -1,0 +1,44 @@
+[
+  
+    {
+        "marca":"Ferrari",
+        "modelo":"488 GTB",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/JnYRhhXY/ferrari-488-gtb-side-view.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":150
+        },
+    {
+        "marca":"Ferrari",
+        "modelo":"812 Super",
+         "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/hjtSgmX7/ferrari-488-gtb-side-view-copia.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":150
+       
+                },
+    {
+        "marca":"Lamborghini",
+        "modelo":"Huracán",
+         "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/TYGkSVhR/lamborghinireserva.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":150
+        },
+    {
+        "marca":"Lamborghini",
+        "modelo":"Huracán Spyder",
+         "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/90vVGNJG/huracan-evo-spyder-copia.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100 - 2.6s",
+        "precio":150
+        }
+        
+   
+   
+]
+
