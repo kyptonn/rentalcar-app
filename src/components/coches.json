@@ -5,8 +5,8 @@
         "modelo":"488 GTB",
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.ibb.co/Sydsg9j/ferrari3.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
+        "caballos":"669cv",
+        "aceleracion":"0-100km/h - 2.9s",
         "precio":180
         },
     {
@@ -14,8 +14,8 @@
         "modelo":"812 Super",
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/m2sMBRx4/Ferrari1.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h  - 2.6s",
+        "caballos":"800cv",
+        "aceleracion":"0-100km/h  - 2.9s",
         "precio":200
        
                 },
@@ -24,35 +24,35 @@
         "modelo":"Aventador",
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/TYGkSVhR/lamborghinireserva.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
-        "precio":300
+        "caballos":"740cv",
+        "aceleracion":"0-100km/h - 2.9s",
+        "precio":375
         },
     {
         "marca":"Lamborghini",
         "modelo":"Reventon",
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/pr8DkXgG/lamborghini1-aventador-lamborghini-gallardo-car-lamborghini-aventador-lp-white-car-5a752727a2b522-53.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
-        "precio":350
+        "caballos":"670cv",
+        "aceleracion":"0-100km/h - 3.4s",
+        "precio":310
         },
     {
         "marca":"Lamborghini",
         "modelo":"Huracan",
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/15GGqX04/lambo3.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
-        "precio":375
+        "caballos":"610cv",
+        "aceleracion":"0-100km/h - 2.9s",
+        "precio":350
     },
     {
         "marca":"Mclaren",
         "modelo":"675LT",
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/bJ4xQ2FS/mclaren1copia.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
+        "caballos":"675cv",
+        "aceleracion":"0-100km/h - 2.9s",
         "precio":300
     },
     {
@@ -67,8 +67,53 @@
     {
         "marca":"Maserati",
         "modelo":"Gran Turismo",
-        "clasificacion":"Luxury & Sports Car",
+        "clasificacion":"Premium",
         "imagen":"https://i.postimg.cc/43Lbx065/masserati1.png",
+        "caballos":"460cv",
+        "aceleracion":"0-100km/h - 4.8s",
+        "precio":150
+    },
+    {
+        "marca":"Mercedes",
+        "modelo":"Clase G",
+        "clasificacion":"Premium",
+        "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
+        "caballos":"585cv",
+        "aceleracion":"0-100km/h - 5.5s",
+        "precio":150
+    },
+    {
+        "marca":"Ferrari",
+        "modelo":"F12 Berlinetta",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/1RG9R2bQ/ferrarif12berlinetta.png",
+        "caballos":"750cv",
+        "aceleracion":"0-100km/h - 3.1s",
+        "precio":300
+    },
+    { 
+        "marca":"Audi",
+        "modelo":"R8",
+        "clasificacion":"Luxury & Sports Car",
+        "imagen":"https://i.postimg.cc/P5kF4f4L/audiR8.png",
+        "caballos":"570cv",
+        "aceleracion":"0-100km/h - 3.2s",
+        "precio":275
+    },
+    {
+        "marca":"Mercedes",
+        "modelo":"Clase G",
+        "clasificacion":"Premium",
+        "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
+        "caballos":"150cv",
+        "aceleracion":"0-100km/h - 2.6s",
+        "precio":150
+    },
+    {
+        "marca":"Mercedes",
+        "modelo":"Clase G",
+        "clasificacion":"Premium",
+        "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
         "caballos":"150cv",
         "aceleracion":"0-100km/h - 2.6s",
         "precio":150

@@ -2,80 +2,62 @@
   font-family: Helvetica, sans-serif;
   
 }
-html,body{
-  margin:0;
-  padding:0;
+body, html{
+  overflow-x:hidden;
 }
 
 .App {
-  text-align: center;
+text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+height: 40vmin;
+pointer-events: none;
 }
 
 
 
 .App-header {
-  background-color: #ffffff;
-  background-size: cover;
-  background-position: center;
-
-  min-height: 100vh;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
-  margin:0;
-  padding:0;
-  
-  
-  
+background-color: #1C222C;
+background-size: cover;
 
 
- 
-  
+min-height: 100vh;
+margin-top:20px;
+justify-content: start;
+align-self: flex-start;
+align-items: center;
+margin:0;
+padding:0;
+
+
 }
 
 
 .App-header h1{
-  color:rgb(72, 72, 72);
-  font-size: 1.2rem;
-  /* padding-top:10vw; */
-  letter-spacing: 4px;
+color:rgb(232, 232, 232);
+font-size: 1.2rem;
+/* padding-top:10vw; */
+margin-top:12vh;
+
+letter-spacing: 4px;
 }
+
+
 
 .container-cajas{
-  display:flex;
-  justify-content: space-around;
-  align-content: center;
-  align-self: center;
-  align-items: center;
+display:flex;
+justify-content: space-around;
+align-content: center;
+align-self: center;
+align-items: center;
 
-  justify-self: center;
- 
-  display:grid;
-  grid-template-columns: 20vw 20vw 20vw 20vw;
+justify-self: center;
 
-  
-}
-
-.overlay{
-  width: 100%;
-  height: 100%;
-  padding:400px 0 300px 0;
-  background-color: rgba(0, 0, 0, 0.461);
-}
+display:grid;
+grid-template-columns: 20% 20%;
 
 
-
-
-
-
-
-.App-link {
-  color: #61dafb;
 }
 
 
@@ -86,7 +68,7 @@ html,body{
 
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:830px) {
   body, html{
       overflow-x:hidden;
   }

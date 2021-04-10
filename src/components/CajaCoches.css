@@ -1,35 +1,124 @@
-.caja-pequenia{
-    width: 15vw;
-    height: 8rem;
-    background-color: #ff0d0d;
-    border-radius: 20px;
 
-    margin:10px 0 10px 0;
-    justify-self: center;
-    
-    
+ .caja-pequenia img{
+    width:15rem;
 }
-
-.caja-pequenia h2{
-    padding-top:0px;
-    padding-bottom: 0px;
-    font-size: 1rem;
-    color:rgb(104, 104, 104);
-}
-
-.caja-pequenia img{
-    width:10rem;
-}
-
 .caja-pequenia p {
     color:rgb(104, 104, 104);
     font-size: 0.9rem;
 }
 
+.caja-pequenia{
+    display:flex;
+
+    width: 35vw;
+    height: 12rem;
+    margin:2px 10px 10px 10px;
+    padding-left:20px;
+    border-radius: 50px;
+    
+    justify-content: space-around; /*Este con el display:flex, lo centra horizontalmente*/
+    justify-self: center;
+    align-items: center; /*Este con el display:flex, lo centra verticalmente*/
+    background-color: #f5f5f515;
+
+    z-index:2;
+    
+}
 
 
-@media screen and (max-width:750px) { /**/
 
+
+
+/*          Caja Izquierda          */
+.caja-izquierda{
+  
+    text-align: left;
+    float:left;
+}
+
+.caja-izquierda h2{
+    margin:0;
+    padding-top:0px;
+    padding-bottom: 2px;
+    font-size: 1.3rem;
+    color:rgb(255, 255, 255);
+    
+}
+.caja-izquierda h3{
+    margin:0;
+    padding-top:0px;
+    padding-bottom: 9px;
+    font-size: 1rem;
+    color:rgb(218, 216, 216);
+    
+}
+
+/* .caja-pequenia img{
+    
+   
+   
+} */
+
+.caja-izquierda p {
+    color:rgb(198, 198, 198);
+    font-size: 0.9rem;
+    margin:0px 0px 0px 0px;
+}
+
+
+
+/*Precio por Hora*/
+.caja-izquierda .precio {
+    display:flex;
+    align-items:center;
+    margin-top:12px;
+}
+    
+.caja-izquierda .precio h3 {
+    font-size: 20px;
+    color:#ffffff;
+    margin:0;
+    padding:0;
+    padding-left:5px;
+    margin-right:10px;
+}
+
+
+
+/*Precio por Día*/
+.caja-izquierda .precio-dia {
+    display:flex;
+    align-items:center;
+    margin-top:5px;
+    margin-left:2px;
+}
+    
+.caja-izquierda .precio-dia h3 {
+    font-size: 14px;
+    color:#ffffff;
+    margin:0;
+    padding:0;
+    padding-left:3px;
+    margin-right:5px;
+}
+.caja-izquierda .precio-dia p{
+    color:rgb(99, 99, 99);
+    font-size: 0.8rem;
+    margin:0px 0px 0px 0px;
+}
+
+
+
+
+@media screen and (max-width:830px) { /**/
+
+    .caja-pequenia img{
+        width:10rem;
+    }
+    .caja-pequenia p {
+        color:rgb(104, 104, 104);
+        font-size: 0.9rem;
+    }
 
     .caja-pequenia{
         display:flex;

@@ -35,7 +35,14 @@ nav{
     z-index:5;
    
 }
-
+.navlinks a{
+    text-decoration: none;
+    color:White;
+    font-size: 20px;
+}
+.fas,.fa-bars, .fa-lg{
+display:none;
+}
 .link a{
     color:white;
     text-decoration: none;
@@ -54,11 +61,13 @@ nav{
 
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:830px) {
     body, html{
         overflow-x:hidden;
     }
-
+    .fas,.fa-bars, .fa-lg{
+        display:block;
+        }
     .hamburger-toggle{
         display:block;
         color:rgba(255, 255, 255, 0.879);
