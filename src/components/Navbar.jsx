@@ -29,8 +29,8 @@ const Navbar = () => {
                 </div>
 
                 
-                <ul className={navLinkOpen ? 'navlinks active' : 'navlinks'}>
-                    <Link to='/home'><a>Home</a></Link>
+                <ul className={navLinkOpen ? 'navlinks active animate__animated animate__fadeIn animate__fast' : 'navlinks'}>
+                    <Link to='/'><a>Home</a></Link>
                     {/* <li className="link"><a href="#">Home</a></li>*/}
                     <Link to='/coches'><a>Coches</a></Link>
                     {/* <li className="link"><a href="#">Services</a></li> */}

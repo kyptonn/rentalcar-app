@@ -4,9 +4,9 @@
         "marca":"Ferrari",
         "modelo":"488 GTB",
         "clasificacion":"Luxury & Sports Car",
-        "imagen":"https://i.postimg.cc/8PMHmtGp/ferrari3.png",
+        "imagen":"https://i.ibb.co/Sydsg9j/ferrari3.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":180
         },
     {
@@ -15,7 +15,7 @@
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/m2sMBRx4/Ferrari1.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h  - 2.6s",
         "precio":200
        
                 },
@@ -25,7 +25,7 @@
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/TYGkSVhR/lamborghinireserva.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":300
         },
     {
@@ -34,16 +34,16 @@
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/pr8DkXgG/lamborghini1-aventador-lamborghini-gallardo-car-lamborghini-aventador-lp-white-car-5a752727a2b522-53.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":350
         },
     {
         "marca":"Lamborghini",
-        "modelo":"Huracán",
+        "modelo":"Huracan",
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/15GGqX04/lambo3.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":375
     },
     {
@@ -52,7 +52,7 @@
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/bJ4xQ2FS/mclaren1copia.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":300
     },
     {
@@ -61,7 +61,7 @@
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/jjd4KT72/mercedes1.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":165
     },
     {
@@ -70,7 +70,7 @@
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/43Lbx065/masserati1.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":150
     },
     {
@@ -79,7 +79,7 @@
         "clasificacion":"Luxury & Sports Car",
         "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
         "caballos":"150cv",
-        "aceleracion":"0-100 - 2.6s",
+        "aceleracion":"0-100km/h - 2.6s",
         "precio":150
     }
     

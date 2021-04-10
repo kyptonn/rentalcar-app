@@ -8,8 +8,9 @@ function Home() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <div className="overlay">
-        <h1>PREMIUM<br></br>RENTALS</h1>
+        <div className="titulo">  
+           <h2>PREMIUM<br></br>RENTALS</h2>
+        </div>    
         <p>
           Alquiler de Coches Exclusivos
         </p>
@@ -19,7 +20,7 @@ function Home() {
             Entrar
           </a> */}
         </button>
-        </div>
+       
       </header>
     </div>
   );

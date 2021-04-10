@@ -13,6 +13,8 @@
     position:absolute;
     width: 100%;
     height: 100vh;
+
+    bottom:120px;
    
     z-index:1;
 }
@@ -38,6 +40,15 @@
     align-items:center;
     vertical-align: middle;
 
+}
+.descripcion h2{
+    margin-top:10px;
+    margin-bottom: 2px;
+}
+.descripcion h3{
+    margin-top:0;
+    margin-bottom:20px;
+    color:rgb(133, 133, 133);
 }
 
 
@@ -66,28 +77,97 @@
 }
 
 
+
+
+
 .caracteristicas{
     position:absolute;
+    display:flex;
+   
    
     width: 100%;
     height: 30vh;
     border-radius: 15% 15% 0% 0%;
-    background-color: rgb(249, 249, 249);
+    background-color: rgba(250, 251, 255, 0.927);
     bottom:0;
+    justify-content: space-between;
     z-index:9;
     color:black;
     text-align: left;
-    justify-content: left;
+    
+    align-items:flex-start;
+}
+
+
+
+.div-izquierdo{
+    display:flex;
+}
+
+.info{
+    margin-left:30px;
+    margin-top:40px;
+}
+.info h4{
+    margin:0;
+
+}
+
+.aceleracion{
+    display: flex;
+    align-items:center;
+
+   
+}
+.aceleracion h4{
+    font-weight: 400;
+}
+
+.aceleracion img{
+    width:25px;
+    margin-left:5px;
+    margin-bottom: 2px;
+}
+
+.potencia{
+    display: flex;
+    align-items:center;
+}
+.potencia h4{
+    font-weight: 400;
+}
+.potencia img{
+    width:21px;
+    margin-left:5px;
+    margin-bottom: 2px;
 }
 
 
 .precio{
     display:inline-flex;
 }
-.caracteristicas .info h3{
+/* .caracteristicas .info h3{
    
 }
 .caracteristicas .info h2{
    
 }
+ */
 
+ .div-derecho{
+    display:flex;
+}
+
+ .boton-reserva{
+    margin-left:0px;
+    margin-top:100px;
+    margin-right: 40px;;
+ }
+
+ .boton-reserva button{
+    font-size: 20px;
+    background-color: rgb(36, 36, 36);
+    color:white;
+    border-radius: 20px;
+    padding:10px;
+ }

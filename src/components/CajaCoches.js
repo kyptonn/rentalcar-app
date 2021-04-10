@@ -1,6 +1,11 @@
 import numeral from 'numeral'
 import React from 'react'
 import './CajaCoches.css'
+import {Link} from 'react-router-dom'
+
+
+var cocheModelo;
+var modeloFinalURL;
 
 export default class CajaCoches extends React.Component {
     // constructor(props){
@@ -11,6 +16,15 @@ export default class CajaCoches extends React.Component {
     //        aceleracion: props.aceleracion
     //    }
     // } -> si lo usamos así, hay que cambiar abajo de "this.props" a "this.state"
+
+
+    // cocheModelo = this.props.modelo;
+    // modeloFinalURL= cocheModelo.replace(/ /g, "");
+
+      
+
+
+
     render(){
         return (
             <div className="caja-pequenia animate__animated animate__fadeIn animate__slow">
@@ -26,7 +40,7 @@ export default class CajaCoches extends React.Component {
                         <p>€</p>
                         <h3>{this.props.precio}</h3>                        
                         <p>la hora</p>
-                       
+                    
                     </div>
                     <div className="precio-dia">
                         <p>€</p>
@@ -36,7 +50,10 @@ export default class CajaCoches extends React.Component {
                 </div>
 
                 <div className="caja-derecha">
-                    <img src={this.props.imagen} alt={this.props.nombre}></img>
+               
+                {/* <Link to={this.props.modelo}> <img src={this.props.imagen} alt={this.props.nombre}></img></Link>  */}
+                <a href={this.props.modelo}> <img src={this.props.imagen} alt={this.props.nombre}></img></a>
+
                 </div>
             </div>
 
