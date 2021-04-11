@@ -9,10 +9,6 @@ import motor2 from '../motor2.png'
 import aceleracion1 from '../aceleracion1.png'
 import aceleracion2 from '../aceleracion2.png'
 
-
-
-
-
 import lambo from '../coches/lamborghinireserva.png'
 
 
@@ -20,6 +16,10 @@ import lambo from '../coches/lamborghinireserva.png'
 
 import coches from '../components/coches.json'
 import { findDOMNode } from 'react-dom'
+import Navbar from '../components/Navbar'
+
+
+
 
 const mapURL=`https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDk7FVxFaHwdXhP3-gvIsmqK2fjFvnYG28`
 
@@ -36,25 +36,14 @@ var cocheURL = windowLocation.pathname
   
 
 var list = [];
- for (var i = 0; i <= 8; i++) {
+for (var i = 0; i <= 11; i++) {
     list.push(i);
-    console.log(list)
+    // console.log(list)
     if(cocheURL.includes((coches[list.length-1].modelo).replace(" ", "%20")) ){
         break
     }
-
-
-
-
-
-
-   }
-   console.log(list)
-
-
-
-
-
+}
+console.log(list)
 
 console.log(cocheURL)
 var numeroCoche = list.length-1
@@ -62,62 +51,26 @@ console.log("numero coche de la URL "+numeroCoche)
 console.log(coches[numeroCoche].modelo)
 
 
-//     // list.find(coches[i].modelo)
-
-    
-// } 
-
-
-// var numeroCoche = list.length-1
-// console.log(numeroCoche)
-
-
-
-
-// indexOf()
-
-//   "SLS"  =    "SLS"
-// cocheURL == coches[i].modelo
-// cocheURL == coches[6].modelo
-
-
-
-
-
-
-
-
 export const Reserva = () => {
 
     console.log(numeroCoche)
 
-///
-//
-//  hay que coger la url actual y recortarla para quedarnos con el último "/coche-seleccionado-actual" //
-
-    //import coches from '../components/coches.json'
-
-    //includes({coches.modelo})
-//http://localhost:3000/Coches/Aventador
-
-
-
-
-    // var verificacion = if("/"+coches[i].modelo) == cocheURL;  // true/false
-   
-
-
     return (
+        
         <div className="container-maestro animate__animated animate__fadeIn animate__fast">
+             <Navbar />
+            
             <div className="mapa">
-               
-                <Map googleMapURL={mapURL}
+
+                <Map 
+                googleMapURL={mapURL}
                 containerElement={<div style={{height:'100%'}}  />}
                 mapElement={<div style={{height:'100%'}} />}
                 loadingElement= {<p>Cargando</p>}
                 />
             </div>
             <div className="detalles animate__animated animate__slideInUp">
+                
                 <div className="descripcion">
                             <h2> {coches[numeroCoche].marca}</h2>
                             <h3> {coches[numeroCoche].modelo}</h3>
@@ -130,10 +83,6 @@ export const Reserva = () => {
 
                 <div className="caracteristicas">
 
-
-
-
-
                     <div className="div-izquierdo">
                         <div className="info">
                             <h3>Características</h3>
@@ -141,7 +90,6 @@ export const Reserva = () => {
                                 <h4>{coches[numeroCoche].aceleracion}</h4>
                                 <img src={aceleracion1}></img>
                             </div>
-
                             <div className="potencia">
                                 <h4>{coches[numeroCoche].caballos}</h4>
                             
@@ -149,7 +97,6 @@ export const Reserva = () => {
                             </div>
                             <div className="precio">
                                 <h2>{coches[numeroCoche].precio}€ </h2><p>/ hora</p>
-                            
                             </div>
                         </div>
                     </div>
@@ -157,27 +104,11 @@ export const Reserva = () => {
                     <div className="div-derecho">
                         <div className="boton-reserva">
                             <button>Reservar</button>
-
-
-
+                            <p>Comprobar <br></br>disponibilidad</p>
                         </div>
-
-
-
-
                     </div>
 
-
-
                 </div>
-
-
-
-
-
-
-
-
             </div>
         </div>
     )

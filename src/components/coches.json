@@ -7,8 +7,12 @@
         "imagen":"https://i.ibb.co/Sydsg9j/ferrari3.png",
         "caballos":"669cv",
         "aceleracion":"0-100km/h - 2.9s",
-        "precio":180
-        },
+        "precio":180,
+        
+                "lat":41.407,
+                "lng":2.180
+            
+    },
     {
         "marca":"Ferrari",
         "modelo":"812 Super",
@@ -16,9 +20,13 @@
         "imagen":"https://i.postimg.cc/m2sMBRx4/Ferrari1.png",
         "caballos":"800cv",
         "aceleracion":"0-100km/h  - 2.9s",
-        "precio":200
+        "precio":200,
+        
+            "lat":41.395,
+            "lng":2.174
+        
        
-                },
+    },
     {
         "marca":"Lamborghini",
         "modelo":"Aventador",
@@ -26,8 +34,12 @@
         "imagen":"https://i.postimg.cc/TYGkSVhR/lamborghinireserva.png",
         "caballos":"740cv",
         "aceleracion":"0-100km/h - 2.9s",
-        "precio":375
-        },
+        "precio":375,
+        
+                "lat":41.409,
+                "lng":2.155
+            
+    },
     {
         "marca":"Lamborghini",
         "modelo":"Reventon",
@@ -35,8 +47,12 @@
         "imagen":"https://i.postimg.cc/pr8DkXgG/lamborghini1-aventador-lamborghini-gallardo-car-lamborghini-aventador-lp-white-car-5a752727a2b522-53.png",
         "caballos":"670cv",
         "aceleracion":"0-100km/h - 3.4s",
-        "precio":310
-        },
+        "precio":310,
+        
+                "lat":41.386,
+                "lng":2.168
+           
+    },
     {
         "marca":"Lamborghini",
         "modelo":"Huracan",
@@ -44,7 +60,11 @@
         "imagen":"https://i.postimg.cc/15GGqX04/lambo3.png",
         "caballos":"610cv",
         "aceleracion":"0-100km/h - 2.9s",
-        "precio":350
+        "precio":350,
+        
+                "lat":41.368,
+                "lng":2.189
+            
     },
     {
         "marca":"Mclaren",
@@ -53,7 +73,11 @@
         "imagen":"https://i.postimg.cc/bJ4xQ2FS/mclaren1copia.png",
         "caballos":"675cv",
         "aceleracion":"0-100km/h - 2.9s",
-        "precio":300
+        "precio":300,
+        
+                "lat":41.396,
+                "lng":2.159
+            
     },
     {
         "marca":"Mercedes",
@@ -62,7 +86,11 @@
         "imagen":"https://i.postimg.cc/jjd4KT72/mercedes1.png",
         "caballos":"150cv",
         "aceleracion":"0-100km/h - 2.6s",
-        "precio":165
+        "precio":165,
+       
+                "lat":41.405,
+                "lng":2.197
+           
     },
     {
         "marca":"Maserati",
@@ -71,7 +99,11 @@
         "imagen":"https://i.postimg.cc/43Lbx065/masserati1.png",
         "caballos":"460cv",
         "aceleracion":"0-100km/h - 4.8s",
-        "precio":150
+        "precio":150,
+        
+                "lat":41.401,
+                "lng":2.149
+          
     },
     {
         "marca":"Mercedes",
@@ -80,7 +112,11 @@
         "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
         "caballos":"585cv",
         "aceleracion":"0-100km/h - 5.5s",
-        "precio":150
+        "precio":150,
+        
+                "lat":41.397,
+                "lng":2.184
+           
     },
     {
         "marca":"Ferrari",
@@ -89,7 +125,11 @@
         "imagen":"https://i.postimg.cc/1RG9R2bQ/ferrarif12berlinetta.png",
         "caballos":"750cv",
         "aceleracion":"0-100km/h - 3.1s",
-        "precio":300
+        "precio":300,
+        
+                "lat":41.407,
+                "lng":2.180
+            
     },
     { 
         "marca":"Audi",
@@ -98,36 +138,25 @@
         "imagen":"https://i.postimg.cc/P5kF4f4L/audiR8.png",
         "caballos":"570cv",
         "aceleracion":"0-100km/h - 3.2s",
-        "precio":275
+        "precio":275,
+        
+                "lat":41.395,
+                "lng":2.174
+            
     },
     {
-        "marca":"Mercedes",
-        "modelo":"Clase G",
+        "marca":"Porsche",
+        "modelo":"Taycan",
         "clasificacion":"Premium",
-        "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
-        "precio":150
-    },
-    {
-        "marca":"Mercedes",
-        "modelo":"Clase G",
-        "clasificacion":"Premium",
-        "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
-        "precio":150
-    },
-    {
-        "marca":"Mercedes",
-        "modelo":"Clase G",
-        "clasificacion":"Luxury & Sports Car",
-        "imagen":"https://i.postimg.cc/fLV7tv5h/mercedes2tanque.png",
-        "caballos":"150cv",
-        "aceleracion":"0-100km/h - 2.6s",
-        "precio":150
+        "imagen":"https://i.postimg.cc/ZqHtGvRv/porsche2.png",
+        "caballos":"625cv",
+        "aceleracion":"0-100km/h - 3.2s",
+        "precio":295,
+        
+                "lat":41.403,
+                "lng":2.172
+            
     }
-    
         
    
    

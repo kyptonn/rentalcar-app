@@ -34,7 +34,7 @@ const Navbar = () => {
                     {/* <li className="link"><a href="#">Home</a></li>*/}
                     <Link to='/coches'><a>Coches</a></Link>
                     {/* <li className="link"><a href="#">Services</a></li> */}
-                    <Link to='/home'><a>Contacto</a></Link>
+                    <Link to='/home'><a>Iniciar Sesion / Registro</a></Link>
                     {/* <li className="link"><a href="#">Contact Us</a></li> */}
                     <div onClick={cambiarEstado} className="hamburger-toggle2">
                     <i className="fas fa-bars fa-lg"></i>

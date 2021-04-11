@@ -38,8 +38,8 @@ padding:0;
 color:rgb(232, 232, 232);
 font-size: 1.2rem;
 /* padding-top:10vw; */
-margin-top:12vh;
-
+margin-top:16vh;
+margin-bottom:8vh;
 letter-spacing: 4px;
 }
 
@@ -68,7 +68,7 @@ grid-template-columns: 20% 20%;
 
 
 
-@media screen and (max-width:830px) {
+@media screen and (max-width:1064px) {
   body, html{
       overflow-x:hidden;
   }
@@ -105,7 +105,9 @@ grid-template-columns: 20% 20%;
     color:rgb(232, 232, 232);
     font-size: 1.2rem;
     /* padding-top:10vw; */
-    margin-top:12vh;
+    margin-top:100px;
+    margin-bottom: 30px;
+    
    
     letter-spacing: 4px;
   }

@@ -13,25 +13,18 @@
     position:absolute;
     width: 100%;
     height: 100vh;
-
     bottom:120px;
-   
     z-index:1;
 }
-
-
 .detalles{
     position:absolute;
-   
     width: 100%;
     height: 45vh;
     border-radius: 15% 15% 0% 0%;
     background-color: rgb(21, 21, 21);
     bottom:0;
     z-index:10;
-    color:White;
-    
-    
+    color:White; 
 }
 
 .detalles .descripcion{
@@ -50,8 +43,6 @@
     margin-bottom:20px;
     color:rgb(133, 133, 133);
 }
-
-
 .estado{
     align-content: center;
     align-items: center;
@@ -70,21 +61,16 @@
 
 .foto-coche{
     position: absolute;
-    max-width: 230px;
+    max-width: 225px;
     right:3px;
-    top:25px;
+    top:20px;
     z-index:10;
 }
-
-
-
 
 
 .caracteristicas{
     position:absolute;
     display:flex;
-   
-   
     width: 100%;
     height: 30vh;
     border-radius: 15% 15% 0% 0%;
@@ -94,30 +80,22 @@
     z-index:9;
     color:black;
     text-align: left;
-    
     align-items:flex-start;
 }
-
-
-
 .div-izquierdo{
     display:flex;
 }
-
 .info{
     margin-left:30px;
-    margin-top:40px;
+    margin-top:20px;
 }
 .info h4{
     margin:0;
 
 }
-
 .aceleracion{
     display: flex;
-    align-items:center;
-
-   
+    align-items:center; 
 }
 .aceleracion h4{
     font-weight: 400;
@@ -141,35 +119,37 @@
     margin-left:5px;
     margin-bottom: 2px;
 }
-
-
 .precio{
     display:inline-flex;
 }
-/* .caracteristicas .info h3{
-   
-}
-.caracteristicas .info h2{
-   
-}
- */
 
- .div-derecho{
+
+.div-derecho{
     display:flex;
 }
 
  .boton-reserva{
+     display: grid;
+     justify-content: center;
     margin-left:0px;
     margin-top:100px;
-    margin-right: 40px;;
+    margin-right: 35px;
+    align-items: center;
+    text-align: center;
  }
 
  .boton-reserva button{
-    font-size: 20px;
+    font-size: 22px;
     background-color: rgb(36, 36, 36);
     color:white;
     border-radius: 20px;
     padding:10px;
+    margin:0;
+ }
+ .boton-reserva p{
+   font-size: 12px;
+   margin-top:3px;
+   padding:0;
  }
 
 
@@ -178,17 +158,410 @@
 
 
 
+ @media (min-width:701px) and (max-width: 1600px){
+
+    .container-maestro{
+        position:flex;
+        justify-content: center;;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(21, 21, 21) ;
+        
+    }
+
+    .container-maestro .mapa{
+        position:flex;
+        width: 80%;
+        height: 30vh;
+        bottom:80px;
+        border-radius: 220px 220px 202px 220px;
+
+        margin-left:10vw;
+       
+    
+    }
+
+    .mapa{
+        border-width: 2000px;
+        border-color:white;
+        
+    }
+
+    .detalles{
+        position:flex;
+        justify-content: center;;
+        width: 80%;
+        top: 100px;
+        
+        margin-left:10vw;
+        border-top: solid;;
+       
+       /* border-bottom: solid; */
+        border-color:rgb(116, 116, 116);
+        margin-top:20px;
+        
+       
+        z-index:3;
+        color:White; 
+    }
+    
+    .detalles .descripcion{
+        margin-left:15vw;
+        padding-top:60px;
+        align-items:center;
+        vertical-align: middle;
+    
+    }
+    .caracteristicas{
+        position:absolute;
+        display:flex;
+        width: 100%;
+        height:25vh;
+        margin-left:11.5vw;
+       
+        
+        background-color:transparent;
+        bottom:0;
+        
+        justify-content: space-between;
+        z-index:9;
+        color:white;
+        text-align: left;
+        align-items:flex-start;
+    }
+
+    .foto-coche{
+        margin-top:40px;
+        margin-right:10vw
+    }
+
+    .boton-reserva{
+        justify-content: center;;
+        margin-right:25vw;
+        margin-top:60px;
+        
+    }
+   
+    .boton-reserva button{
+       font-size: 22px;
+       background-color: rgb(36, 36, 36);
+       color:white;
+      
+    }
+    /* .container-maestro{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .container-maestro .mapa{
+        position:absolute;
+        width: 100%;
+        height: 100vh;
+        bottom:120px;
+        z-index:1;
+    }
+    .detalles{
+        position:absolute;
+        width: 100%;
+        height: 45vh;
+        border-radius: 15% 15% 0% 0%;
+        background-color: rgb(21, 21, 21);
+        bottom:0;
+        z-index:10;
+        color:White; 
+    }
+    
+    .detalles .descripcion{
+        margin-left:30px;
+        padding-top:10px;
+        align-items:center;
+        vertical-align: middle;
+    
+    }
+    .descripcion h2{
+        margin-top:10px;
+        margin-bottom: 2px;
+    }
+    .descripcion h3{
+        margin-top:0;
+        margin-bottom:20px;
+        color:rgb(133, 133, 133);
+    }
+    .estado{
+        align-content: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+    .estado p{
+        font-size: 14px;
+    }
+    .gasolina, .caminar{
+        width: 15px;
+        
+    }
+    .gasolina{
+        margin-right: 5px;
+    }
+    
+    .foto-coche{
+        position: absolute;
+        max-width: 225px;
+        right:3px;
+        top:20px;
+        z-index:10;
+    }
+    
+    
+    .caracteristicas{
+        position:absolute;
+        display:flex;
+        width: 100%;
+        height: 30vh;
+        border-radius: 15% 15% 0% 0%;
+        background-color: rgba(250, 251, 255, 0.927);
+        bottom:0;
+        justify-content: space-between;
+        z-index:9;
+        color:black;
+        text-align: left;
+        align-items:flex-start;
+    }
+    .div-izquierdo{
+        display:flex;
+    }
+    .info{
+        margin-left:30px;
+        margin-top:20px;
+    }
+    .info h4{
+        margin:0;
+    
+    }
+    .aceleracion{
+        display: flex;
+        align-items:center; 
+    }
+    .aceleracion h4{
+        font-weight: 400;
+    }
+    
+    .aceleracion img{
+        width:25px;
+        margin-left:5px;
+        margin-bottom: 2px;
+    }
+    
+    .potencia{
+        display: flex;
+        align-items:center;
+    }
+    .potencia h4{
+        font-weight: 400;
+    }
+    .potencia img{
+        width:21px;
+        margin-left:5px;
+        margin-bottom: 2px;
+    }
+    .precio{
+        display:inline-flex;
+    }
+    
+    
+    
+    .div-derecho{
+        display:flex;
+    }
+    
+     .boton-reserva{
+         display: grid;
+         justify-content: center;
+        margin-left:0px;
+        margin-top:100px;
+        margin-right: 35px;
+        align-items: center;
+        text-align: center;
+     }
+    
+     .boton-reserva button{
+        font-size: 22px;
+        background-color: rgb(36, 36, 36);
+        color:white;
+        border-radius: 20px;
+        padding:10px;
+        margin:0;
+     }
+     .boton-reserva p{
+       font-size: 12px;
+       margin-top:3px;
+       padding:0;
+     } */
+ }
 
 
 
 
 
 
+ @media screen and (max-width: 700px){
+
+    .container-maestro{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .container-maestro .mapa{
+        position:absolute;
+        width: 100%;
+        height: 100vh;
+        bottom:120px;
+        z-index:1;
+    }
+    .detalles{
+        position:absolute;
+        width: 100%;
+        height: 45vh;
+        border-radius: 15% 15% 0% 0%;
+        background-color: rgb(21, 21, 21);
+        bottom:0;
+        z-index:10;
+        color:White; 
+    }
+    
+    .detalles .descripcion{
+        margin-left:30px;
+        padding-top:10px;
+        align-items:center;
+        vertical-align: middle;
+    
+    }
+    .descripcion h2{
+        margin-top:10px;
+        margin-bottom: 2px;
+    }
+    .descripcion h3{
+        margin-top:0;
+        margin-bottom:20px;
+        color:rgb(133, 133, 133);
+    }
+    .estado{
+        align-content: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+    .estado p{
+        font-size: 14px;
+    }
+    .gasolina, .caminar{
+        width: 15px;
+        
+    }
+    .gasolina{
+        margin-right: 5px;
+    }
+    
+    .foto-coche{
+        position: absolute;
+        max-width: 225px;
+        right:3px;
+        top:20px;
+        z-index:10;
+    }
+    
+    
+    .caracteristicas{
+        position:absolute;
+        display:flex;
+        width: 100%;
+        height: 30vh;
+        border-radius: 15% 15% 0% 0%;
+        background-color: rgba(250, 251, 255, 0.927);
+        bottom:0;
+        justify-content: space-between;
+        z-index:9;
+        color:black;
+        text-align: left;
+        align-items:flex-start;
+    }
+    .div-izquierdo{
+        display:flex;
+    }
+    .info{
+        margin-left:30px;
+        margin-top:20px;
+    }
+    .info h4{
+        margin:0;
+    
+    }
+    .aceleracion{
+        display: flex;
+        align-items:center; 
+    }
+    .aceleracion h4{
+        font-weight: 400;
+    }
+    
+    .aceleracion img{
+        width:25px;
+        margin-left:5px;
+        margin-bottom: 2px;
+    }
+    
+    .potencia{
+        display: flex;
+        align-items:center;
+    }
+    .potencia h4{
+        font-weight: 400;
+    }
+    .potencia img{
+        width:21px;
+        margin-left:5px;
+        margin-bottom: 2px;
+    }
+    .precio{
+        display:inline-flex;
+    }
+    
+    
+    
+    .div-derecho{
+        display:flex;
+    }
+    
+     .boton-reserva{
+         display: grid;
+         justify-content: center;
+        margin-left:0px;
+        margin-top:100px;
+        margin-right: 35px;
+        align-items: center;
+        text-align: center;
+     }
+    
+     .boton-reserva button{
+        font-size: 22px;
+        background-color: rgb(36, 36, 36);
+        color:white;
+        border-radius: 20px;
+        padding:10px;
+        margin:0;
+     }
+     .boton-reserva p{
+       font-size: 12px;
+       margin-top:3px;
+       padding:0;
+     }
 
 
- /*      MUY PEQUEÑO            */
 
- @media screen and (max-width: 357px){
+ }
+
+
+ @media screen and (max-width: 500px){
 
     /* html,body{
     margin:0;
@@ -205,16 +578,13 @@
     position:absolute;
     width: 100%;
     height: 100vh;
-
     bottom:120px;
-   
     z-index:1;
 }
 
 
 .detalles{
     position:absolute;
-   
     width: 100%;
     height: 45vh;
     border-radius: 15% 15% 0% 0%;
@@ -222,16 +592,12 @@
     bottom:0;
     z-index:10;
     color:White;
-    
-    
 }
-
 .detalles .descripcion{
     margin-left:30px;
     padding-top:10px;
     align-items:center;
     vertical-align: middle;
-
 }
 .descripcion h2{
     margin-top:10px;
@@ -242,8 +608,6 @@
     margin-bottom:20px;
     color:rgb(133, 133, 133);
 }
-
-
 .estado{
     align-content: center;
     align-items: center;
@@ -264,21 +628,18 @@
     position: absolute;
     max-width: calc(100vw * 0.5);
     right:3px;
-    top:25px;
+    top:40px;
     z-index:10;
 }
-
-
 
 
 
 .caracteristicas{
     position:absolute;
     display:flex;
-   
-   
     width: 100%;
-    height: 25vh;
+    height: 30vh; 
+    max-height: 300px;
     border-radius: 15% 15% 0% 0%;
     background-color: rgba(250, 251, 255, 0.927);
     bottom:0;
@@ -286,7 +647,6 @@
     z-index:9;
     color:black;
     text-align: left;
-    
     align-items:flex-start;
 }
 
@@ -298,23 +658,21 @@
 
 .info{
     margin-left:30px;
-    margin-top:5px;
+    margin-top:10px;
     
 }
 .info h4{
-    margin:0;
+    margin-bottom:2px;
 
 }
 
 .info h3{
-    margin-bottom:8px;
+    margin-bottom:18px;
 }
 
 .aceleracion{
     display: flex;
     align-items:center;
-
-   
 }
 .aceleracion h4{
     font-size: 14px;
@@ -326,46 +684,36 @@
     margin-left:5px;
     margin-bottom: 2px;
 }
-
 .potencia{
     display: flex;
     align-items:center;
 }
 .potencia h4{
     font-size: 14px;
-    font-weight: 400;
-    
+    font-weight: 400; 
 }
 .potencia img{
     width:15px;
     margin-left:5px;
     margin-bottom: 2px;
 }
-
-
 .precio{
     display:inline-flex;
     
 }
-
 .precio h2, p{
     margin-top:10px;
 }
-/* .caracteristicas .info h3{
-   
-}
-.caracteristicas .info h2{
-   
-}
- */
 
- .div-derecho{
+
+
+.div-derecho{
     display:flex;
 }
 
  .boton-reserva{
     margin-left:0px;
-    margin-top:10vh;
+    margin-top:5vh;
     margin-right: 20px;;
  }
 
@@ -375,11 +723,399 @@
     color:white;
     border-radius: 20px;
     padding:10px;
+    margin-top:3vh;
  }
 
+ .boton-reserva p{
+    font-size: 11px;
+    margin-top:3px;
+    padding:0;
+  }
+
+}
 
 
 
 
+@media screen and (max-height: 720px) and (max-width:700px){  /*   HEIGHT   */
+
+
+    .container-maestro{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .container-maestro .mapa{
+        position:absolute;
+        width: 100%;
+        height: 100vh;
+    
+        bottom:120px;
+       
+        z-index:1;
+    }
+    
+    
+    .detalles{
+        position:absolute;
+       
+        width: 100%;
+        height: 45vh;
+        border-radius: 15% 15% 0% 0%;
+        background-color: rgb(21, 21, 21);
+        bottom:0;
+        z-index:10;
+        color:White;
+        
+        
+    }
+    
+    .detalles .descripcion{
+        margin-left:30px;
+        padding-top:10px;
+        align-items:center;
+        vertical-align: middle;
+    
+    }
+    .descripcion h2{
+        font-size: 20px;
+        margin-top:10px;
+        margin-bottom: 2px;
+    }
+    .descripcion h3{
+        font-size: 15px;
+        margin-top:0;
+        margin-bottom:20px;
+        color:rgb(133, 133, 133);
+    }
+    
+    
+    .estado{
+        align-content: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+    .estado p{
+        font-size: 12px;
+    }
+    .gasolina, .caminar{
+        width: 12px;
+        
+    }
+    .gasolina{
+        margin-right: 5px;
+    }
+    
+    .foto-coche{
+        position: absolute;
+        max-width: 200px;
+        right:10px;
+        top:40px;
+        z-index:10;
+    }
+    
+    
+    
+    
+    
+    .caracteristicas{
+        position:absolute;
+        display:flex;
+       
+       
+        width: 100%;
+        height: 25vh; 
+        max-height: 300px;
+        border-radius: 15% 15% 0% 0%;
+        background-color: rgba(250, 251, 255, 0.927);
+        bottom:0;
+        justify-content: space-between;
+        z-index:9;
+        color:black;
+        text-align: left;
+        
+        align-items:flex-start;
+    }
+    
+    
+    
+    .div-izquierdo{
+        display:flex;
+    }
+    
+    .info{
+        margin-left:30px;
+        margin-top:1px;
+        
+    }
+    .info h4{
+        margin-bottom:2px;
+    
+    }
+    
+    .info h3{
+        margin-bottom:5px;
+    }
+    
+    .aceleracion{
+        display: flex;
+        align-items:center;
+    
+       
+    }
+    .aceleracion h4{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .aceleracion img{
+        width:15px;
+        margin-left:5px;
+        margin-bottom: 2px;
+    }
+    
+    .potencia{
+        display: flex;
+        align-items:center;
+    }
+    .potencia h4{
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+    .potencia img{
+        width:15px;
+        margin-left:5px;
+        margin-bottom: 2px;
+    }
+    
+    
+    .precio{
+        display:inline-flex;
+        
+    }
+    
+    .precio h2{
+        margin-top:5px;
+        padding-top:0;
+    }
+
+    .precio p{
+        padding-top:0px;
+        margin-top:10px;
+    }
+    /* .caracteristicas .info h3{
+       
+    }
+    .caracteristicas .info h2{
+       
+    }
+     */
+    
+     .div-derecho{
+        display:flex;
+    }
+    
+     .boton-reserva{
+        margin-left:0px;
+        margin-top:60px;
+        margin-right: 20px;;
+     }
+    
+     .boton-reserva button{
+        font-size: 20px;
+        background-color: rgb(36, 36, 36);
+        color:white;
+        border-radius: 20px;
+        padding:10px;
+        
+     }
+    
+     .boton-reserva p{
+        font-size: 11px;
+        margin-top:3px;
+        padding:0;
+      }
     
  }
+
+
+
+
+
+
+
+  /*      MUY PEQUEÑO            */
+@media screen and (max-width: 357px){
+
+    /* html,body{
+    margin:0;
+    padding:0;
+} */
+
+.container-maestro{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+.container-maestro .mapa{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    bottom:120px;
+    z-index:1;
+}
+
+
+.detalles{
+    position:absolute;
+    width: 100%;
+    height: 45vh;
+    border-radius: 15% 15% 0% 0%;
+    background-color: rgb(21, 21, 21);
+    bottom:0;
+    z-index:10;
+    color:White;
+}
+.detalles .descripcion{
+    margin-left:30px;
+    padding-top:10px;
+    align-items:center;
+    vertical-align: middle;
+}
+.descripcion h2{
+    margin-top:10px;
+    margin-bottom: 2px;
+}
+.descripcion h3{
+    margin-top:0;
+    margin-bottom:20px;
+    color:rgb(133, 133, 133);
+}
+.estado{
+    align-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.estado p{
+    font-size: 14px;
+}
+.gasolina, .caminar{
+    width: 15px;
+    
+}
+.gasolina{
+    margin-right: 5px;
+}
+
+.foto-coche{
+    position: absolute;
+    max-width: calc(100vw * 0.5);
+    right:3px;
+    top:40px;
+    z-index:10;
+}
+
+
+
+.caracteristicas{
+    position:absolute;
+    display:flex;
+    width: 100%;
+    height: 30vh; 
+    max-height: 300px;
+    border-radius: 15% 15% 0% 0%;
+    background-color: rgba(250, 251, 255, 0.927);
+    bottom:0;
+    justify-content: space-between;
+    z-index:9;
+    color:black;
+    text-align: left;
+    align-items:flex-start;
+}
+
+
+
+.div-izquierdo{
+    display:flex;
+}
+
+.info{
+    margin-left:30px;
+    margin-top:10px;
+    
+}
+.info h4{
+    margin-bottom:2px;
+
+}
+
+.info h3{
+    margin-bottom:18px;
+}
+
+.aceleracion{
+    display: flex;
+    align-items:center;
+}
+.aceleracion h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.aceleracion img{
+    width:15px;
+    margin-left:5px;
+    margin-bottom: 2px;
+}
+.potencia{
+    display: flex;
+    align-items:center;
+}
+.potencia h4{
+    font-size: 14px;
+    font-weight: 400; 
+}
+.potencia img{
+    width:15px;
+    margin-left:5px;
+    margin-bottom: 2px;
+}
+.precio{
+    display:inline-flex;
+    
+}
+.precio h2, p{
+    margin-top:10px;
+}
+
+
+
+.div-derecho{
+    display:flex;
+}
+
+ .boton-reserva{
+    margin-left:0px;
+    margin-top:5vh;
+    margin-right: 20px;;
+ }
+
+ .boton-reserva button{
+    font-size: 20px;
+    background-color: rgb(36, 36, 36);
+    color:white;
+    border-radius: 20px;
+    padding:10px;
+    margin-top:3vh;
+ }
+
+ .boton-reserva p{
+    font-size: 11px;
+    margin-top:3px;
+    padding:0;
+  }
+
+}
